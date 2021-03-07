@@ -1,0 +1,319 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Which of the following is a disadvantage of using JavaScript?" />
+        //Answer :D = All of the above options are correct.
+        <RadioGroup
+            android:id="@+id/q1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn1a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client-side JavaScript does not allow the reading or writing of files" />
+            <RadioButton
+                android:id="@+id/rbtn1b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JavaScript can not be used for
+                Networking applications because there is no such support available" />
+            <RadioButton
+                android:id="@+id/rbtn1c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JavaScript doesn't have any multithreading or multiprocess capabilities" />
+            <RadioButton
+                android:id="@+id/rbtn1d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Which built-in method returns the calling string value converted to lower case?" />
+        //Answer :A = toLowerCase() method returns the calling string value converted to lower case.
+        <RadioGroup
+            android:id="@+id/q2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn2a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toLowerCase()" />
+            <RadioButton
+                android:id="@+id/rbtn2b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toLower()" />
+            <RadioButton
+                android:id="@+id/rbtn2c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="changeCase(case)" />
+            <RadioButton
+                android:id="@+id/rbtn2d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. What is the HTML tag under which one can write the JavaScript code?" />
+        //Answer :C=Explanation: If we want to write a JavaScript code under HTML tag, you will have to use the “script” tag.
+        <RadioGroup
+            android:id="@+id/q3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn3a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="javascript" />
+            <RadioButton
+                android:id="@+id/rbtn3b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scripted" />
+            <RadioButton
+                android:id="@+id/rbtn3c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script" />
+            <RadioButton
+                android:id="@+id/rbtn3d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="js" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?" />
+        //Answer :D: To display any text in the alert box, you need to write it as alert(“GeeksforGeeks”);
+        <RadioGroup
+            android:id="@+id/q4_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn4a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alertbox(“GeeksforGeeks”);" />
+            <RadioButton
+                android:id="@+id/rbtn4b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="msg(“GeeksforGeeks”);" />
+            <RadioButton
+                android:id="@+id/rbtn4c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="msgbox(“GeeksforGeeks”);" />
+            <RadioButton
+                android:id="@+id/rbtn4d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alert(“GeeksforGeeks”);" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. What is the correct syntax for referring to an external script called “geek.js”?" />
+        //Answer :A=The “src” term is used to refer to any JavaScript file.
+        <RadioGroup
+            android:id="@+id/q5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn5a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script src=geek.js" />
+            <RadioButton
+                android:id="@+id/rbtn5b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script href=geek.js" />
+            <RadioButton
+                android:id="@+id/rbtn5c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script ref=geek.js" />
+            <RadioButton
+                android:id="@+id/rbtn5d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script name=geek.js" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.  The external JavaScript file must contain script tag. True or False?" />
+        //Answer :B=It is not necessary for any external javascript file to have script tag.
+        <RadioGroup
+            android:id="@+id/q6_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn6a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True" />
+            <RadioButton
+                android:id="@+id/rbtn6b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.  Which of the following is not a reserved word in JavaScript?" />
+        //Answer :  C=In JavaScript, interface, throws and short are reserved keywords.
+        <RadioGroup
+            android:id="@+id/q7_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn7a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="interface" />
+            <RadioButton
+                android:id="@+id/rbtn7b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="throws" />
+            <RadioButton
+                android:id="@+id/rbtn7c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="program" />
+            <RadioButton
+                android:id="@+id/rbtn7d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="short" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Which of the following function of Number object returns the number's value?" />
+        //Answer :B=valueOf() − Returns the number's value.
+        <RadioGroup
+            android:id="@+id/q8_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn8a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toString()" />
+            <RadioButton
+                android:id="@+id/rbtn8b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="valueOf()" />
+            <RadioButton
+                android:id="@+id/rbtn8c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toLocaleString()" />
+            <RadioButton
+                android:id="@+id/rbtn8d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toPrecision()" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Which of the following function of String object is used to match a regular expression against a string?" />
+        //Answer :B=match() − Used to match a regular expression against a string.
+        <RadioGroup
+            android:id="@+id/q9_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn9a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="concat()" />
+            <RadioButton
+                android:id="@+id/rbtn9b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="match()" />
+            <RadioButton
+                android:id="@+id/rbtn9c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="search()" />
+            <RadioButton
+                android:id="@+id/rbtn9d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="replace()" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?" />
+        //Answer :D=map() − Creates a new array with the results of calling a provided function on every element in this array.
+        <RadioGroup
+            android:id="@+id/q10_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn10a_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="push()" />
+            <RadioButton
+                android:id="@+id/rbtn10b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="join()" />
+            <RadioButton
+                android:id="@+id/rbtn10c_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pop()" />
+            <RadioButton
+                android:id="@+id/rbtn10d_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="map()" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitJS_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"/>
+
+
+    </LinearLayout>
+</ScrollView>

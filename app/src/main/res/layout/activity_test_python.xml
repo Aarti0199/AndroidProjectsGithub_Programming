@@ -1,0 +1,347 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Which Of The Following Represents A Distinctly Identifiable Entity In The Real World?" />
+        //Answer : B
+        <RadioGroup
+            android:id="@+id/q1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn1a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A class" />
+            <RadioButton
+                android:id="@+id/rbtn1b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object" />
+            <RadioButton
+                android:id="@+id/rbtn1c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A method" />
+            <RadioButton
+                android:id="@+id/rbtn1d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A data field" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q-2. Which Of The Following Represents A Template, Blueprint, Or Contract That Defines Objects Of The Same Type?" />
+        //Answer :A
+        <RadioGroup
+            android:id="@+id/q2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn2a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A class" />
+            <RadioButton
+                android:id="@+id/rbtn2b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object" />
+            <RadioButton
+                android:id="@+id/rbtn2c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A method" />
+            <RadioButton
+                android:id="@+id/rbtn2d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A data field" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-3. Which Of The Following Keywords Mark The Beginning Of The Class Definition?" />
+        //Answer :C
+        <RadioGroup
+            android:id="@+id/q3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn3a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="def" />
+            <RadioButton
+                android:id="@+id/rbtn3b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="return" />
+            <RadioButton
+                android:id="@+id/rbtn3c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="class" />
+            <RadioButton
+                android:id="@+id/rbtn3d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-4. Which Of The Following Is Required To Create A New Instance Of The Class?" />
+        //Answer :A
+        <RadioGroup
+            android:id="@+id/q4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn4a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A constructor" />
+            <RadioButton
+                android:id="@+id/rbtn4b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A class" />
+            <RadioButton
+                android:id="@+id/rbtn4c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A value-returning method" />
+            <RadioButton
+                android:id="@+id/rbtn4d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A None method" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Which Of The Following Statements Is Most Accurate For The Declaration X = Circle()?" />
+        //Answer :C
+        <RadioGroup
+            android:id="@+id/q5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn5a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x contains an int value" />
+            <RadioButton
+                android:id="@+id/rbtn5b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x contains an object of the Circle type" />
+            <RadioButton
+                android:id="@+id/rbtn5c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x contains a reference to a Circle object" />
+            <RadioButton
+                android:id="@+id/rbtn5d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can assign an int value to x" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. What Will Be The Output Of The Following Code Snippet?
+class Sales:
+    def __init__(self, id):
+        self.id = id
+        id = 100
+
+val = Sales(123)
+print (val.id)" />
+        //Answer :C
+        <RadioGroup
+            android:id="@+id/q6_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn6a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SyntaxError, this program will not run" />
+            <RadioButton
+                android:id="@+id/rbtn6b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100" />
+            <RadioButton
+                android:id="@+id/rbtn6c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123" />
+            <RadioButton
+                android:id="@+id/rbtn6d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. What Will Be The Output Of The Following Code Snippet?
+class Person:
+    def __init__(self, id):
+        self.id = id
+
+sam = Person(100)
+
+sam.__dict__['age'] = 49
+
+print (sam.age + len(sam.__dict__))" />
+        //Answer : E
+        <RadioGroup
+            android:id="@+id/q7_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn7a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+            <RadioButton
+                android:id="@+id/rbtn7b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+            <RadioButton
+                android:id="@+id/rbtn7c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="49" />
+            <RadioButton
+                android:id="@+id/rbtn7d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50" />
+            <RadioButton
+                android:id="@+id/rbtn7e_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="51" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Python is said to be easily" />
+        //Answer :A
+        <RadioGroup
+            android:id="@+id/q8_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn8a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="readable language" />
+            <RadioButton
+                android:id="@+id/rbtn8b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="writable language" />
+            <RadioButton
+                android:id="@+id/rbtn8c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bug-able language" />
+            <RadioButton
+                android:id="@+id/rbtn8d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="script-able language" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Extensible programming language that can be extended through classes and programming interfaces is" />
+        //Answer :A
+        <RadioGroup
+            android:id="@+id/q9_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn9a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python" />
+            <RadioButton
+                android:id="@+id/rbtn9b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perl" />
+            <RadioButton
+                android:id="@+id/rbtn9c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHP" />
+            <RadioButton
+                android:id="@+id/rbtn9d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ada" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Python was released publicly in" />
+        //Answer :D
+        <RadioGroup
+            android:id="@+id/q10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn10a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1941" />
+            <RadioButton
+                android:id="@+id/rbtn10b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1971" />
+            <RadioButton
+                android:id="@+id/rbtn10c_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1981" />
+            <RadioButton
+                android:id="@+id/rbtn10d_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1991" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitPython_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"/>
+
+    </LinearLayout>
+</ScrollView>

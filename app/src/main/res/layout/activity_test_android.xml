@@ -1,0 +1,337 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.How to move services to foreground in android?" />
+        //Answer : D:We have to call startFordgroud(int id,Notification notification) to make services as foreground services. When it comes to foreground, it will show a notification.
+        <RadioGroup
+            android:id="@+id/q1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn1a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services always work in Foreground only" />
+            <RadioButton
+                android:id="@+id/rbtn1b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No,We can't do this query" />
+            <RadioButton
+                android:id="@+id/rbtn1c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using startService(Intent intent)" />
+            <RadioButton
+                android:id="@+id/rbtn1d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="startFordgroud(int id, Notification notification)" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.What is ANR in android?" />
+        //Answer :A:When an Application is not responding ANR will be occur, and it will stop the process or an application
+        <RadioGroup
+            android:id="@+id/q2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn2a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When the application is not responding ANR will occur" />
+            <RadioButton
+                android:id="@+id/rbtn2b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dialog box is called as ANR." />
+            <RadioButton
+                android:id="@+id/rbtn2c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When Android forcefully kills an application, it is called ANR" />
+            <RadioButton
+                android:id="@+id/rbtn2d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.How to access the context in android content provider?" />
+        //Answer :D:The getContext() method is used in onCreate() method and getApplicationContext() can be used anywhere in an application.
+        <RadioGroup
+            android:id="@+id/q3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn3a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using getContext() in onCreate()" />
+            <RadioButton
+                android:id="@+id/rbtn3b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using intent()" />
+            <RadioButton
+                android:id="@+id/rbtn3c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using getApplicationContext() at anywhere in an application" />
+            <RadioButton
+                android:id="@+id/rbtn3d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A and C" />
+            <RadioButton
+                android:id="@+id/rbtn3e_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A and B" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.What is an anonymous class in android?" />
+        // Answer :B:Anonymous class doesn't have class name but has some functionalities in it.
+        <RadioGroup
+            android:id="@+id/q4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn4a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interface class" />
+            <RadioButton
+                android:id="@+id/rbtn4b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A class that does not have a name but have functionalities in it" />
+            <RadioButton
+                android:id="@+id/rbtn4c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java class" />
+            <RadioButton
+                android:id="@+id/rbtn4d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manifest file" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.Android Web Browser Is Based On" />
+        // Answer :B:Open-source Webkit
+        <RadioGroup
+            android:id="@+id/q5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn5a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrome" />
+            <RadioButton
+                android:id="@+id/rbtn5b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open-source Webkit" />
+            <RadioButton
+                android:id="@+id/rbtn5c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safari" />
+            <RadioButton
+                android:id="@+id/rbtn5d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firefox" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.What is fragment in android?" />
+        // Answer : B:Fragment is a peace of an activity. If you want to move your application in 360 degrees, you can do this by using a fragment.
+        <RadioGroup
+            android:id="@+id/q6_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn6a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JSON" />
+            <RadioButton
+                android:id="@+id/rbtn6b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peace of Activity" />
+            <RadioButton
+                android:id="@+id/rbtn6c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layout" />
+            <RadioButton
+                android:id="@+id/rbtn6d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.What is a thread in android?" />
+        // Answer :D:The concurrent executable unit is called a thread. It's performs some background functionalities with services.
+        <RadioGroup
+            android:id="@+id/q7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn7a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Same as services" />
+            <RadioButton
+                android:id="@+id/rbtn7b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background activity" />
+            <RadioButton
+                android:id="@+id/rbtn7c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broadcast Receiver" />
+            <RadioButton
+                android:id="@+id/rbtn7d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Independent dis-patchable unit is called a thread" />
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.A type of service provided by android that shows messages and alerts to user is" />
+        // Answer :C
+        <RadioGroup
+            android:id="@+id/q8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn8a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content Providers" />
+            <RadioButton
+                android:id="@+id/rbtn8b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View System" />
+            <RadioButton
+                android:id="@+id/rbtn8c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifications Manager" />
+            <RadioButton
+                android:id="@+id/rbtn8d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity Manager" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.Broadcast that includes information about battery state, level, etc. is" />
+        // Answer :A
+        <RadioGroup
+            android:id="@+id/q9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn9a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android.intent.action.BATTERY_CHANGED" />
+            <RadioButton
+                android:id="@+id/rbtn9b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android.intent.action.BATTERY_LOW" />
+            <RadioButton
+                android:id="@+id/rbtn9c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android.intent.action.BATTERY_OKAY" />
+            <RadioButton
+                android:id="@+id/rbtn9d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android.intent.action.CALL_BUTTON" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.One of application component, that manages application's background services is called" />
+        // Answer :C
+        <RadioGroup
+            android:id="@+id/q10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn10a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activities" />
+            <RadioButton
+                android:id="@+id/rbtn10b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broadcast Receivers" />
+            <RadioButton
+                android:id="@+id/rbtn10c_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services" />
+            <RadioButton
+                android:id="@+id/rbtn10d_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content Providers" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitAndroid_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"/>
+
+    </LinearLayout>
+</ScrollView>

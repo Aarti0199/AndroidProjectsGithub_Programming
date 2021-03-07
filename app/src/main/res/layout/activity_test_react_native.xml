@@ -1,0 +1,288 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Everything in React is a _____________" />
+        //Answer :Component
+        <RadioGroup
+            android:id="@+id/q1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn1a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module" />
+            <RadioButton
+                android:id="@+id/rbtn1b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Component" />
+            <RadioButton
+                android:id="@+id/rbtn1c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Package" />
+            <RadioButton
+                android:id="@+id/rbtn1d_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. In which directory React Components are saved?" />
+        //Answer :Inside js/components/
+        <RadioGroup
+            android:id="@+id/q2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn2a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inside js/components/" />
+            <RadioButton
+                android:id="@+id/rbtn2b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inside vendor/components/" />
+            <RadioButton
+                android:id="@+id/rbtn2c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inside external/components/" />
+            <RadioButton
+                android:id="@+id/rbtn2d_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inside vendor/" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. How many elements does a react component return?" />
+        //Answer :Multiple Elements
+        <RadioGroup
+            android:id="@+id/q3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn3a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2 Elements" />
+            <RadioButton
+                android:id="@+id/rbtn3b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1 Element" />
+            <RadioButton
+                android:id="@+id/rbtn3c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Multiple Elements" />
+                   </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. What is state in React?" />
+        //Answer :An internal data store (object) of a component
+        <RadioGroup
+            android:id="@+id/q4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn4a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A persistant storage" />
+            <RadioButton
+                android:id="@+id/rbtn4b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" An internal data store (object) of a component" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. What is Babel?" />
+        //Answer :Both Compiler and Transpilar
+        <RadioGroup
+            android:id="@+id/q5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn5a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A transpiler" />
+            <RadioButton
+                android:id="@+id/rbtn5b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" An interpreter" />
+            <RadioButton
+                android:id="@+id/rbtn5c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A Compiler" />
+            <RadioButton
+                android:id="@+id/rbtn5d_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Both Compiler and Transpilar" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. What does the webpack command do?" />
+        //Answer :Webpack is a module bundler
+        <RadioGroup
+            android:id="@+id/q6_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn6a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Transpiles all the Javascript down into one file" />
+            <RadioButton
+                android:id="@+id/rbtn6b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Runs react local development server." />
+            <RadioButton
+                android:id="@+id/rbtn6c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A module bundler" />
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. What port is the default where the webpack-dev-server will run?" />
+        //Answer :8080
+        <RadioGroup
+            android:id="@+id/q7_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn7a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3000" />
+            <RadioButton
+                android:id="@+id/rbtn7b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 8080" />
+            <RadioButton
+                android:id="@+id/rbtn7c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3306" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. What is ReactJS?" />
+        //Answer :A Library for building interaction interfaces
+        <RadioGroup
+            android:id="@+id/q8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn8a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Server side Framework" />
+            <RadioButton
+                android:id="@+id/rbtn8b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" User-interface framework" />
+            <RadioButton
+                android:id="@+id/rbtn8c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A Library for building interaction interfaces" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. What are the two ways that data gets handled in React?" />
+        //Answer :state and props
+        <RadioGroup
+            android:id="@+id/q9_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn9a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="state and props" />
+            <RadioButton
+                android:id="@+id/rbtn9b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="services and components" />
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. In React what is used to pass data to a component from outside?" />
+        //Answer :Props are used to pass data to a component from outside
+        <RadioGroup
+            android:id="@+id/q10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn10a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" setState" />
+            <RadioButton
+                android:id="@+id/rbtn10b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" render with arguments" />
+            <RadioButton
+                android:id="@+id/rbtn10c_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" props" />
+            <RadioButton
+                android:id="@+id/rbtn10d_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" PropTypes" />
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/submitReactJS_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"/>
+
+    </LinearLayout>
+</ScrollView>

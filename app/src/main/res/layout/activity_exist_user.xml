@@ -1,0 +1,367 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Which will legally declare, construct, and initialize an array?" />
+//d option is correct.
+        <RadioGroup
+            android:id="@+id/q1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn1a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int[] myList = {'1', '2', '3'};" />
+            <RadioButton
+                android:id="@+id/rbtn1b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int[] myList = (5, 8, 2);" />
+            <RadioButton
+                android:id="@+id/rbtn1c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int myList [] [] = {4,9,7,0};" />
+            <RadioButton
+                android:id="@+id/rbtn1d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int myList [] = {4, 3, 7};" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Which is a reserved word in the Java programming language?" />
+        //Answer: Option B:The word "native" is a valid keyword, used to modify a method declaration
+        <RadioGroup
+            android:id="@+id/q2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn2a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="method" />
+            <RadioButton
+                android:id="@+id/rbtn2b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="native" />
+            <RadioButton
+                android:id="@+id/rbtn2c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="subclasses" />
+            <RadioButton
+                android:id="@+id/rbtn2d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reference" />
+            <RadioButton
+                android:id="@+id/rbtn2e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="array" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Which is a valid keyword in java?" />
+        //Answer: Option A:interface is a valid keyword.
+        <RadioGroup
+            android:id="@+id/q3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn3a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="interface" />
+            <RadioButton
+                android:id="@+id/rbtn3b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="string" />
+            <RadioButton
+                android:id="@+id/rbtn3c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Float" />
+            <RadioButton
+                android:id="@+id/rbtn3d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="unsigned" />
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Which is the valid declarations within an interface definition?" />
+        //Answer: Option A is correct. A public access modifier is acceptable. The method prototypes in an interface are all abstract by virtue of their declaration, and should not be declared abstract.
+        <RadioGroup
+            android:id="@+id/q4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn4a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public double methoda();" />
+            <RadioButton
+                android:id="@+id/rbtn4b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public final double methoda();" />
+            <RadioButton
+                android:id="@+id/rbtn4c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="static void methoda(double d1);" />
+            <RadioButton
+                android:id="@+id/rbtn4d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="protected void methoda(double d1);" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.A process that involves recognizing and focusing on the important characteristics of a situation or object is known as:" />
+        //Answer: c
+        <RadioGroup
+            android:id="@+id/q5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn5a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation" />
+            <RadioButton
+                android:id="@+id/rbtn5b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polymorphism" />
+            <RadioButton
+                android:id="@+id/rbtn5c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abstraction" />
+            <RadioButton
+                android:id="@+id/rbtn5d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inheritance" />
+            <RadioButton
+                android:id="@+id/rbtn5e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Object persistence" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.Which statement is true regarding an object?" />
+        //Answer: b
+        <RadioGroup
+            android:id="@+id/q6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn6a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object is what classes instantiated are from" />
+            <RadioButton
+                android:id="@+id/rbtn6b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object is an instance of a class" />
+            <RadioButton
+                android:id="@+id/rbtn6c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object is a variable" />
+            <RadioButton
+                android:id="@+id/rbtn6d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object is a reference to an attribute" />
+            <RadioButton
+                android:id="@+id/rbtn6e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An object is not an instance of a class" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.In object-oriented programming, new classes can be defined by extending existing classes. This is an example of:" />
+        //Answer: d
+        <RadioGroup
+            android:id="@+id/q7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn7a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation" />
+            <RadioButton
+                android:id="@+id/rbtn7b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interface" />
+            <RadioButton
+                android:id="@+id/rbtn7c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Composition" />
+            <RadioButton
+                android:id="@+id/rbtn7d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inheritance" />
+            <RadioButton
+                android:id="@+id/rbtn7e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aggregation" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.The wrapping up of data and functions into a single unit is called" />
+        //Answer: a
+        <RadioGroup
+            android:id="@+id/q8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn8a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation" />
+            <RadioButton
+                android:id="@+id/rbtn8b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abstraction" />
+            <RadioButton
+                android:id="@+id/rbtn8c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Hiding" />
+            <RadioButton
+                android:id="@+id/rbtn8d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polymorphism" />
+            <RadioButton
+                android:id="@+id/rbtn8e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message passing" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.A package is a collection of"/>
+        //Answer: d
+        <RadioGroup
+            android:id="@+id/q9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn9a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classes" />
+            <RadioButton
+                android:id="@+id/rbtn9b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interfaces" />
+            <RadioButton
+                android:id="@+id/rbtn9c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editing tools" />
+            <RadioButton
+                android:id="@+id/rbtn9d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classes and interfaces"/>
+            <RadioButton
+                android:id="@+id/rbtn9e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editing tools and interfaces" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.Basic Java language functions are stored in which of the following java package?"/>
+        //Answer: a
+        <RadioGroup
+            android:id="@+id/q10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbtn10a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java.lang" />
+            <RadioButton
+                android:id="@+id/rbtn10b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java.io" />
+            <RadioButton
+                android:id="@+id/rbtn10c_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java.net" />
+            <RadioButton
+                android:id="@+id/rbtn10d_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java.util"/>
+            <RadioButton
+                android:id="@+id/rbtn10e_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java.awt" />
+        </RadioGroup>
+
+
+        <Button
+    android:id="@+id/submitJava_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="submit"/>
+
+        </LinearLayout>
+</ScrollView>

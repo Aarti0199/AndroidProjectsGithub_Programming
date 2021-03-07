@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the test you wanted to appear for:" />
+        <RadioGroup
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/op_java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAVA" />
+            <RadioButton
+                android:id="@+id/op_android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android" />
+            <RadioButton
+                android:id="@+id/op_reactJS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="React JS" />
+            <RadioButton
+                android:id="@+id/op_python"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python" />
+            <RadioButton
+                android:id="@+id/op_javaScript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JavaScript" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+</ScrollView>
